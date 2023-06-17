@@ -128,7 +128,8 @@ hr{
         padding: 0;
     }
     .main{
-        width:400px;
+        margin-left: 0;
+        width:375px;
         height:auto;
     }
    .top-section{
