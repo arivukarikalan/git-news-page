@@ -1,0 +1,161 @@
+body{
+    box-sizing: border-box;
+    padding:20px;
+    font-family: 'Inter';
+    text-transform: capitalize;
+   
+}
+*,
+*::before,
+*::after {
+
+  box-sizing: inherit;
+}
+.main{
+    height:680px;
+    width:1100px;
+    margin:10px;
+    margin-left:13% ;
+}
+.top-section{
+    display: flex;
+    height:76%;
+    width:100%
+}
+.bottom-section{
+    height:24%;
+    width:100%
+}
+
+#top-left{
+   
+    flex-basis: 65%;
+    margin:20px;
+    padding:10px;
+}
+#top-right{
+   
+    flex-basis: 35%;
+    margin:20px;
+    padding:10px;
+    background-color: #212A3E;
+}
+#bottom{
+   
+    width:97%;
+    height:100%;
+    margin:20px;
+}
+
+.top-msg{
+    width:45%;
+    display: inline-block;
+    font-weight: 700;
+    margin-top:10px;
+}
+.top{
+    
+    width:48%;
+    display: inline-block;
+}
+.btn{
+    position: relative;
+    left:46%;
+    bottom:5px;
+}
+.top-right-content{
+    display: flex;
+    flex-direction: column;
+}
+.bottom-content{
+    display: flex;
+    
+}
+.content1 , .content2 , .content3{
+    flex-basis: 33%;
+    
+    
+}
+.retro-msg{
+    display: inline-block;
+    width:55%;
+    height:auto;
+   
+    position:relative;
+    top:35px;
+}
+
+.retro,.gaming,.laptop{
+    display: inline-block;
+    position: relative;
+    bottom: 15%;
+    height:75%;
+    margin: 10px;
+}
+
+.brand{
+    font-weight: 800;
+}
+.box1-title{
+    color:#F29727;
+    font-weight: 800;
+}
+.box1-sub-title , .box2-sub-title , .box3-sub-title{
+    color:white;
+    font-weight: 600;
+}
+.box1-para , .box2-para ,.box3-para{
+    color:white;
+}
+hr{
+    color: white;
+}
+.num{
+    color:#9BA4B5;
+    font-weight: 600;
+    font-size: 25px;
+}
+.sub1{
+    color:#2B2A4C;
+    font-weight: 600;
+    margin:25px 0px 25px 0px;
+}
+.sub2{
+    color:#9BA4B5
+}
+@media(max-width:576px){
+    .main{
+        width:400px;
+        height:auto;
+    }
+   .top-section{
+    display: flex;
+    flex-direction: column;
+   }
+   .bottom-content{
+    display:flex;
+    flex-direction: column;
+   }
+   .retro-msg{
+    display: inline-block;
+    width:60%;
+   
+    margin:10px;
+}
+.top-msg{
+    width:90%;
+    display:block;
+    font-weight: 700;
+    margin-top:10px;
+}
+.top{
+    
+    width:90%;
+    display: block;
+}
+.btn{
+  
+    position: relative;
+    left:0;
+}
+}
