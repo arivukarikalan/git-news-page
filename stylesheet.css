@@ -124,6 +124,9 @@ hr{
     color:#9BA4B5
 }
 @media(max-width:576px){
+    body{
+        padding: 0;
+    }
     .main{
         width:400px;
         height:auto;
